@@ -1,0 +1,116 @@
+body{
+    background-image: url("images/josh.avif"); /* Update with your image's URL */
+  background-size: auto;
+  background-position: top;
+  background-repeat: revert;
+}
+
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    max-height: 400px;
+    /* Adjust height as needed */
+    color: black;
+    background-color: rgb(176, 98, 98);
+    border: 1px solid black;
+    border-radius: 5px;
+    border-style: inset;
+    flex-direction: column;
+}
+
+.container:hover {
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0 3px 6px rgba(222, 177, 14, 0.862);
+    /* height: 400px; */
+}
+
+
+h2 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+.Name {
+    /* width: 100%; */
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+}
+
+input {
+    border: none;
+    font-size: 18px;
+
+}
+
+.Password {
+    /* width: 100%; */
+    padding: 15px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: white;
+}
+
+.btn {
+    padding: 15px 30px;
+    margin: 5px 0 22px 0;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+.Acc {
+    font-style: italic;
+}
+
+.icone {
+    flex-direction: row;
+    /* width: ; */
+    padding: 9px;
+}
+
+.forget-password {
+    margin: 2px 0 2px;
+    text-decoration: none;
+    display: block;
+    color: #122531;
+    position: relative;
+    left: 72px;
+    font-style: italic;
+    font-weight: inherit;
+}
+
+.Name h4 {
+    background-color: black;
+    margin: 0px 0px 0px 0px;
+    padding: none;
+    color: white;
+}
+.home{
+    width: 3px 3px 9px 3px;
+
+}

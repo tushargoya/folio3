@@ -1,0 +1,163 @@
+.shift {
+    animation-duration: 2s;
+    animation-name: v;
+}
+
+@keyframes v {
+    from {
+        margin-left: 50%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+.img {
+    background-size: inherit;
+    /* background-position: left; */
+    /* border-radius: 50%; */
+    background-repeat: no-repeat;
+    position: absolute;
+    /* width:35%; */
+    padding: 3px 5px;
+}
+
+.container-fluid {
+    border: none;
+
+    float: left;
+    display: block;
+    font-family: cursive;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    padding: 14px 16px;
+    user-select: none;
+    background-color: #ddd;
+
+}
+
+.container-fluid:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.dd {
+    border: none;
+}
+
+#link {
+    position: absolute;
+    right: 20px;
+    color: none;
+    margin-top: 5px;
+    background-color: none;
+}
+
+.intro {
+    padding-top: 90px;
+    position: inherit;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.intro h1 {
+    font-size: 50px;
+    text-shadow: -1px -1px white, 1px 1px #060, -3px 0 4px #000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 16px;
+    font-weight: lighter;
+    font-style: italic;
+    display: block;
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}
+
+.intro p {
+    text-align: center;
+    width: 370px;
+    font-weight: 300;
+}
+
+.gg {
+
+
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bb {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bb:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+.gg:hover {
+    background-color: #c0392b;
+    transform: scale(1.08);
+}
+
+.row-cent {
+    font-size: large;
+    align-items: center;
+}
+
+footer .raw-icons {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+    flex-wrap: wrap;
+
+}
+
+footer .raw-icons li {
+    list-style: none;
+}
+
+footer .raw-icons li a {
+    font-size: 2em;
+    color: white;
+    margin: 0px 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .raw-icons li a:hover {
+    transform: translate(10px);
+}
+@keyframes color {
+    0%   { background: #33CCCC; }
+    20%  { background: #33CC36; }
+    40%  { background: #B8CC33; }
+    60%  { background: #FCCA00; }
+    80%  { background: #33CC36; }
+    100% { background: #33CCCC; }
+  }
+  
+  body {
+    background: #33CCCC; /* Fallback */
+    animation: color 9s infinite linear;
+    text-align: center;
+    /* padding: 2em; */
+  }

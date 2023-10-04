@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar bg-body-tertiary">
+    <form class="container-fluid justify-content-start">
+      <button class="btn btn-outline-success me-2" type="button">Main button</button>
+      <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
+    </form>
+  </nav>
+
+  <div class="raw" style="padding: 40px 0px 0px 30px;">
+    <div id="bm" style="padding-right: 130px;">
+
+      <div class="card" style="width: 18rem; position: relative; ">
+        <img src="images/gfg.jpg" class="card-img-top" alt="gfg"
+          style="position: relative; border-radius: 50%; padding: 20px 49px 12px;">
+        <div class="card-body" style="position: relative; padding-inline: 50px;">
+          <h5 class="card-title">Geeks For Geeks</h5>
+          <p class="card-text">Problem Solving</p>
+          <a href="https://auth.geeksforgeeks.org/user/tushargoyal420/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user"
+            class="btn btn-primary stretched-link">GO Profile</a>
+        </div>
+      </div>
+    </div>
+    <div id="bm" style="padding-right: 120px;">
+      <div class="card" style="width: 18rem; position: relative;">
+        <img src="images/download.png" class="card-img-top" alt="gfg"
+          style="position: relative; border-radius: 50%; padding: 20px 49px 12px;">
+        <div class="card-body" style="position: relative; padding-inline: 50px;">
+          <h5 class="card-title">Hecker Rank</h5>
+          <p class="card-text">Solved The Proble</p>
+          <a href="https://www.hackerrank.com/dashboard" class="btn btn-primary stretched-link">GO Profile</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem; position: relative;">
+      <img src="images/c.jpg" class="card-img-top" alt="gfg"
+        style="position: relative; border-radius: 50%; padding: 20px 49px 12px;">
+      <div class="card-body" style="position: relative; padding-inline: 50px;">
+        <h5 class="card-title">Coding Ninja</h5>
+        <p class="card-text">Good</p>
+        <a href="https://www.codingninjas.com/" class="btn btn-primary stretched-link">GO Profile</a>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .card:hover {
+      border-color: rgba(var(--bs-success-rgb), var(--bs-border-opacity)) !important;
+
+    }
+
+    body {
+      background-image: url("images/12.jpg");
+      background-size: cover;
+      background-position: inherit;
+      background-repeat: no-repeat;
+      padding: 5px 5px 5px 3px;
+      width: 35%;
+    }
+
+    .raw {
+      display: inline-flex;
+      justify-content: space-between;
+      top: 30px;
+    }
+  </style>
+  <script>
+   document.addEventListener("DOMContentLoaded", function() {
+    // Get a reference to the button element with the "openButton" class
+    var openButton = document.querySelector(".btn");
+
+    // Add a click event listener to the button
+    openButton.addEventListener("click", function() {
+        // Open the index file in a new window or tab
+        window.open("index.html", "_blank");
+    });
+});
+
+
+  </script>
+
+
+</body>
+
+</html>
